@@ -27,6 +27,8 @@ def write_vimium_options() -> None:
         vimium_options["searchEngines"] = search_engines_file.read()
         vimium_options["userDefinedLinkHintCss"] = user_defined_link_hint_css_file.read()
 
+        # The JSON file created by vimium's backup button is pretty-printed
+        # with keys indented by two-space.
         json.dump(vimium_options, vimium_options_file, indent=2)
 
     return
