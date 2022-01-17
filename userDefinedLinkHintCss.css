@@ -1,0 +1,76 @@
+div > .vimiumHintMarker {
+	/* linkhint boxes */
+	/*
+	 * background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785), color-stop(100%,#FFC542));
+	 */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d33682), color-stop(100%,#d33682));
+	border: 1px solid #E3BE23;
+}
+
+div > .vimiumHintMarker span {
+	/* linkhint text */
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+div > .vimiumHintMarker > .matchingCharacter {
+}
+
+/* ################# */
+
+/* input text-input back*/
+input#vomnibarInput.vimiumReset {
+	color: #93a1a1 !important;
+	background-color: #073642 !important;
+}
+
+#vomnibar {
+	border-color: #002b36;
+	background-color: #002b36;
+}
+
+/* input frame */
+#vomnibar .vomnibarSearchArea {
+	background-color: #002b36;
+	border-bottom: #3f3f3f;
+}
+
+/* input border */
+#vomnibar input {
+	border-color: #586e75;
+}
+
+/* results background */
+#vomnibar ul {
+	background-color: #002b36;
+}
+
+#vomnibar li {
+	border-bottom: #3f3f3f;
+}
+
+/* Second line URL */
+#vomnibar li .vomnibarUrl {
+	color: #268bd2;
+}
+
+/* Second line URL-Match */
+#vomnibar li .vomnibarMatch {
+	color: #d33682;
+}
+
+/* Selected */
+#vomnibar li.vomnibarSelected {
+	background-color: #073642;
+}
+
+/* Title-Match */
+#vomnibar li em .vomnibarMatch, #vomnibar li .vomnibarTitle .vomnibarMatch {
+	color: #d33682;
+}
+
+/* Title */
+#vomnibar li em, #vomnibar li .vomnibarTitle {
+	color: #eee8d5;
+}

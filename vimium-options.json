@@ -1,0 +1,21 @@
+{
+  "settingsVersion": "1.67",
+  "exclusionRules": [],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "unmap <c-e>\nunmap <c-y>\n\nmap K previousTab\nmap J nextTab\nmap <C-e> createTab\nmap <C-w> removeTab\n",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "pages/blank.html",
+  "nextPatterns": "next,more,newer,>,\u203a,\u2192,\u00bb,\u226b,>>",
+  "previousPatterns": "prev,previous,back,older,<,\u2039,\u2190,\u00ab,\u226a,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": true,
+  "searchEngines": "duckduckgo: https://duckduckgo.com/?q=%s DuckDuckGo\ngo: https://duckduckgo.com/?q=%s DuckDuckGo\n\nvimium: moz-extension://db905619-6b01-4a36-b331-747536ff1c69/pages/%s.html vimium\n\nwiki: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\npython: https://docs.python.org/3/search.html?q=%s Python 3 Standard Library\npython3: https://docs.python.org/3/search.html?q=%s Python 3 Standard Library\npython2: https://docs.python.org/2/search.html?q=%s Python 2 Standard Library\n\nmaps: https://www.google.com/maps?q=%s Google Maps\ngoogle: https://www.google.com/search?q=%s Google\n\ngithub: https://github.com/search?q=%s GitHub\nrepo: https://github.com/AudaxHealthInc?q=%s GitHub Rally Repositories\ncode: https://github.com/search?q=org%3AAudaxHealthInc+%s&type=code GitHub Rally Code\n\nyoutube: https://www.youtube.com/results?search_query=%s Youtube\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n# g: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\n# y: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant\",\n",
+  "searchUrl": "https://duckduckgo.com/?q=%s",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n\t/* linkhint boxes */\n\t/*\n\t * background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785), color-stop(100%,#FFC542));\n\t */\n\tbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d33682), color-stop(100%,#d33682));\n\tborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n\t/* linkhint text */\n\tcolor: black;\n\tfont-weight: bold;\n\tfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}\n\n/* ################# */\n\n/* input text-input back*/\ninput#vomnibarInput.vimiumReset {\n\tcolor: #93a1a1 !important;\n\tbackground-color: #073642 !important;\n}\n\n#vomnibar {\n\tborder-color: #002b36;\n\tbackground-color: #002b36;\n}\n\n/* input frame */\n#vomnibar .vomnibarSearchArea {\n\tbackground-color: #002b36;\n\tborder-bottom: #3f3f3f;\n}\n\n/* input border */\n#vomnibar input {\n\tborder-color: #586e75;\n}\n\n/* results background */\n#vomnibar ul {\n\tbackground-color: #002b36;\n}\n\n#vomnibar li {\n\tborder-bottom: #3f3f3f;\n}\n\n/* Second line URL */\n#vomnibar li .vomnibarUrl {\n\tcolor: #268bd2;\n}\n\n/* Second line URL-Match */\n#vomnibar li .vomnibarMatch {\n\tcolor: #d33682;\n}\n\n/* Selected */\n#vomnibar li.vomnibarSelected {\n\tbackground-color: #073642;\n}\n\n/* Title-Match */\n#vomnibar li em .vomnibarMatch, #vomnibar li .vomnibarTitle .vomnibarMatch {\n\tcolor: #d33682;\n}\n\n/* Title */\n#vomnibar li em, #vomnibar li .vomnibarTitle {\n\tcolor: #eee8d5;\n}\n"
+}

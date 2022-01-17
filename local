@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+function main {
+	local -r path="render-json.py"
+	mypy "$path"
+	echo "" # linebreak
+	python3 "$path"
+}
+
+main $@
