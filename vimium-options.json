@@ -4,7 +4,7 @@
   "filterLinkHints": false,
   "waitForEnterForFilteredHints": true,
   "hideHud": false,
-  "keyMappings": "unmap <c-e>\nunmap <c-y>\n\nmap K previousTab\nmap J nextTab\nmap <C-e> createTab\nmap <C-w> removeTab\n",
+  "keyMappings": "unmap <c-y>\n\nunmap gT\nmap K previousTab\n\nunmap gt\nmap J nextTab\n\nunmap t\nunmap <c-e>\n# TODO this doesn't seem to work because <C-e> is mapped and mapping recognition is eager :(\nmap <C-e><enter> createTab\n\nunmap x\nmap <C-w> removeTab\n\nunmap o\nmap : Vomnibar.activate\n\nunmap O\nmap <C-e> Vomnibar.activateInNewTab\n\nunmap b\nmap b: Vomnibar.activateBookmarks\n\nunmap T\nmap t: Vomnibar.activateTabSelection\n\nunmap ge\nmap <C-l> Vomnibar.activateEditUrl\n\nunmap r\nmap <C-r> reload\n",
   "linkHintCharacters": "sadfjklewcmpgh",
   "linkHintNumbers": "0123456789",
   "newTabUrl": "pages/blank.html",
