@@ -1,13 +1,14 @@
+/* linkhint boxes */
 div > .vimiumHintMarker {
-	/* linkhint boxes */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d33682), color-stop(100%,#d33682));
-	border: 1px solid #E3BE23;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#073642), color-stop(100%,#073642));
+	/* border: 1px solid #E3BE23; */
+	border: none;
 }
 
+/* linkhint text */
 div > .vimiumHintMarker span {
-	/* linkhint text */
-	color: black;
-	font-weight: bold;
+	color: #93a1a1;
+	font-weight: normal;
 	font-size: 12px;
 }
 
@@ -18,13 +19,19 @@ div > .vimiumHintMarker > .matchingCharacter {
 
 /* input text-input back*/
 input#vomnibarInput.vimiumReset {
-	color: #93a1a1 !important;
 	background-color: #073642 !important;
+	color: #93a1a1 !important;
 }
 
 #vomnibar {
+	background-color: #002b36 !important;
 	border-color: #002b36;
-	background-color: #002b36;
+	box-shadow: none;
+}
+
+#vomnibar ::selection {
+	background-color: #cb4b16;
+	color: #eee8d5;
 }
 
 /* input frame */
@@ -35,7 +42,10 @@ input#vomnibarInput.vimiumReset {
 
 /* input border */
 #vomnibar input {
-	border-color: #586e75;
+	background-color: #002b36;
+	border-color: #002b36;
+	box-shadow: none;
+	color: #839496;
 }
 
 /* results background */
@@ -54,7 +64,9 @@ input#vomnibarInput.vimiumReset {
 
 /* Second line URL-Match */
 #vomnibar li .vomnibarMatch {
-	color: #d33682;
+	font-weight: normal;
+	color: #b58900;
+	/*color: #d33682;*/
 }
 
 /* Selected */
@@ -64,10 +76,16 @@ input#vomnibarInput.vimiumReset {
 
 /* Title-Match */
 #vomnibar li em .vomnibarMatch, #vomnibar li .vomnibarTitle .vomnibarMatch {
-	color: #d33682;
+	font-weight: normal;
+	color: #b58900;
+	/*color: #d33682;*/
 }
 
 /* Title */
 #vomnibar li em, #vomnibar li .vomnibarTitle {
-	color: #eee8d5;
+	color: #839496;
+}
+
+#vomnibar li .vomnibarSource {
+	color: #586e75;
 }
