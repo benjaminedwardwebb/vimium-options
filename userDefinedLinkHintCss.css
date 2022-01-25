@@ -23,6 +23,8 @@ input#vomnibarInput.vimiumReset {
 	color: #93a1a1 !important;
 }
 
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
 #vomnibar {
 	background-color: #002b36 !important;
 	border-color: #002b36;
@@ -46,6 +48,7 @@ input#vomnibarInput.vimiumReset {
 	border-color: #002b36;
 	box-shadow: none;
 	color: #839496;
+	font-family: 'Fira Code', monospace;
 }
 
 /* results background */
@@ -60,13 +63,14 @@ input#vomnibarInput.vimiumReset {
 /* Second line URL */
 #vomnibar li .vomnibarUrl {
 	color: #268bd2;
+	font-family: 'Fira Code', monospace;
 }
 
 /* Second line URL-Match */
 #vomnibar li .vomnibarMatch {
-	font-weight: normal;
 	color: #b58900;
-	/*color: #d33682;*/
+	font-weight: normal;
+	font-family: 'Fira Code', monospace;
 }
 
 /* Selected */
@@ -76,16 +80,18 @@ input#vomnibarInput.vimiumReset {
 
 /* Title-Match */
 #vomnibar li em .vomnibarMatch, #vomnibar li .vomnibarTitle .vomnibarMatch {
-	font-weight: normal;
 	color: #b58900;
-	/*color: #d33682;*/
+	font-weight: normal;
+	font-family: 'Fira Code', monospace;
 }
 
 /* Title */
 #vomnibar li em, #vomnibar li .vomnibarTitle {
 	color: #839496;
+	font-family: 'Fira Code', monospace;
 }
 
 #vomnibar li .vomnibarSource {
 	color: #586e75;
+	font-family: 'Fira Code', monospace;
 }
