@@ -19,14 +19,14 @@ div > .vimiumHintMarker > .matchingCharacter {
 
 /* input text-input back*/
 input#vomnibarInput.vimiumReset {
-	background-color: #073642 !important;
-	color: #93a1a1 !important;
+	background-color: #073642;
+	color: #93a1a1;
 }
 
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 
 #vomnibar {
-	background-color: #002b36 !important;
+	background-color: #002b36;
 	border-color: #002b36;
 	box-shadow: none;
 }
@@ -40,15 +40,28 @@ input#vomnibarInput.vimiumReset {
 #vomnibar .vomnibarSearchArea {
 	background-color: #002b36;
 	border-bottom: #3f3f3f;
+	white-space: nowrap; /* Aligns the ::before colon and input. */
+	font-size: 0px; /* Removes whitespace between ::before colon and input. */
+}
+
+#vomnibar .vomnibarSearchArea::before {
+	color: #586e75;
+	font-family: 'Fira Code', monospace;
+	font-size: 20px;
+	font-weight: bold;
+	content: ":";
 }
 
 /* input border */
 #vomnibar input {
+	width: calc(100% - 12px); /* Shaves extra length of ::before colon. */
 	background-color: #002b36;
 	border-color: #002b36;
 	box-shadow: none;
 	color: #839496;
 	font-family: 'Fira Code', monospace;
+	font-size: 20px; /* Default from vimium made explicit here. */
+	display: inline-block;
 }
 
 /* results background */
