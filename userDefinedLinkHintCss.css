@@ -48,13 +48,16 @@ input#vomnibarInput.vimiumReset {
 	color: #586e75;
 	font-family: 'Fira Code', monospace;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: normal;
 	content: ":";
+	/* The following match the styling of #vomnibar input. */
+	box-sizing: border-box;
+	display: inline-block;
 }
 
 /* input border */
 #vomnibar input {
-	width: calc(100% - 12px); /* Shaves extra length of ::before colon. */
+	width: calc(100% - 12px); /* Shaves off extra length of ::before colon. */
 	background-color: #002b36;
 	border-color: #002b36;
 	box-shadow: none;
@@ -62,6 +65,8 @@ input#vomnibarInput.vimiumReset {
 	font-family: 'Fira Code', monospace;
 	font-size: 20px; /* Default from vimium made explicit here. */
 	display: inline-block;
+	padding-left: 0px; /* Defaults to 4px; shifts closer to colon. */
+	border-left: 0px; /* Defaults to 1px; shifts closer to colon. */
 }
 
 /* results background */
