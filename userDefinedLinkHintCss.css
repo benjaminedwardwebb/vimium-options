@@ -1,15 +1,19 @@
 /* linkhint boxes */
 div > .vimiumHintMarker {
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#073642), color-stop(100%,#073642));
-	/* border: 1px solid #E3BE23; */
+	background: none;
+	background-color: #268bd2;
+	box-shadow: none;
 	border: none;
+	border-radius: 3px;
 }
 
 /* linkhint text */
 div > .vimiumHintMarker span {
-	color: #93a1a1;
-	font-weight: normal;
+	color: #073642;
+	font-family: 'Fira Code', monospace;
+	font-weight: bold;
 	font-size: 12px;
+	text-shadow: none;
 }
 
 div > .vimiumHintMarker > .matchingCharacter {
